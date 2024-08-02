@@ -14,10 +14,10 @@ public class Main {
 //      System.out.println(lo.getHigherNumber(8,6));
 //      lo.countToHundred(5);
 //      lo.whileCountToHundred(110);
-//      lo.countdownBetweenNumbers(50, 100);
-//      System.out.println(lo.addAllNumbersToHundred(99));
- //     System.out.println(lo.avverageOfNumbers(88));
-  //      lo.displaysPattern();
+      lo.countdownBetweenNumbers(50, 100);
+      System.out.println(lo.addAllNumbersToHundred(99));
+      System.out.println(lo.avverageOfNumbers(88));
+        lo.displaysPattern();
     }
 
     }
