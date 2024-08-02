@@ -17,7 +17,7 @@ public class Main {
 //      lo.countdownBetweenNumbers(50, 100);
 //      System.out.println(lo.addAllNumbersToHundred(99));
  //     System.out.println(lo.avverageOfNumbers(88));
-        lo.displaysPattern();
+  //      lo.displaysPattern();
     }
 
     }
