@@ -47,11 +47,11 @@ public class LogicalOperation {
     }
 
 
-    //  4.(ELSE)  Create a String method that takes a String parameter.
-    //  Check if the text that comes as a parameter equals "Evozon".
-    //  If yes, then the method should return "Learning text comparison". If not, the method should return "Got to try some more".
-    //Hint 1: Text is not compared with ==, but with .equals().
-    //Hint 2: .equals() compares both lowercase and uppercase letters and sees them as different (i.e., "test" is not equal to "Test").
+    // 4.(ELSE)  Create a String method that takes a String parameter.
+    // Check if the text that comes as a parameter equals "Evozon".
+    // If yes, then the method should return "Learning text comparison". If not, the method should return "Got to try some more".
+    // Hint 1: Text is not compared with ==, but with .equals().
+    // Hint 2: .equals() compares both lowercase and uppercase letters and sees them as different (i.e., "test" is not equal to "Test").
 
 
     public String Comparison(String text) {
@@ -63,7 +63,7 @@ public class LogicalOperation {
     }
 
 
-    // 5. (ELSE). Create a String method that takes a String parameter and an int parameter.
+    //  5. (ELSE). Create a String method that takes a String parameter and an int parameter.
     //  If the text received as a parameter is equal to "Evozon", and the number received as a parameter
     //  is less than or equal to 3, return the text and the number in this order. If the text is not "Evozon"
     //  and the number is greater than or equal to 4, return the number and the text in this order.
