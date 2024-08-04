@@ -18,7 +18,7 @@ public class Main {
 //      System.out.println(lo.addAllNumbersToHundred(99));
 //      System.out.println(lo.avverageOfNumbers(88));
 //      lo.displaysPattern();
-//      lo.ascendingCountDownBetweenNumbers(5,10)
+//      lo.ascendingCountDownBetweenNumbers(5,10);
 //      lo.evenNumbersFromOneToHundred();
 //      lo.oddNumbersFromToHundred();
 //      lo.sumAndAverage();
