@@ -26,7 +26,7 @@ public class Main {
 //      double average = lo.averageNumbersDivisibleBy7(50, 10);
 //      System.out.println("Average of numbers divisible by 7 in the range: " + average);
 //      lo.printFibonacciSequence(20);
-        lo.cozaLozaWoza();
+//      lo.cozaLozaWoza();
     }
 
         }
