@@ -333,49 +333,6 @@ public class LogicalOperation {
 
 
 
-//    A. Create an abstract class 'LibraryItem':
-//    Attributes: 'title' (String), 'author' (String)
-//    Constructor: Initialize the attributes.
-//    Abstract Methods: 'getDescription()'
-
-
-
-    // Define the abstract class LibraryItem
-    public abstract class LibraryItem {
-
-        // Attributes
-        private String title;
-        private String author;
-
-        // Constructor to initialize the attributes
-        public LibraryItem(String title, String author) {
-            this.title = title;
-            this.author = author;
-        }
-
-        // Getter for title
-        public String getTitle() {
-            return title;
-        }
-
-        // Setter for title
-        public void setTitle(String title) {
-            this.title = title;
-        }
-
-        // Getter for author
-        public String getAuthor() {
-            return author;
-        }
-
-        // Setter for author
-        public void setAuthor(String author) {
-            this.author = author;
-        }
-
-        // Abstract method that must be implemented by subclasses
-        public abstract String getDescription();
-    }
 }
 
 
