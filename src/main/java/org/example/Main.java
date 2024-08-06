@@ -5,6 +5,7 @@ public class Main {
 
         LogicalOperation lo = new LogicalOperation();
         Calculator calc = new Calculator();
+        Print print = new Print();
 
 //      System.out.println(lo.Comparison("voz"));
 //      System.out.println(lo.ComparisonStringNumber("Evozon",7));
@@ -26,7 +27,17 @@ public class Main {
 //      double average = lo.averageNumbersDivisibleBy7(50, 10);
 //      System.out.println("Average of numbers divisible by 7 in the range: " + average);
 //      lo.printFibonacciSequence(20);
-      lo.cozaLozaWoza();
+//      lo.cozaLozaWoza();
+
+
+ //       int[] myArray = lo.populateArray(100);
+ //       print.printArray(myArray);
+
+  //      int[] evenArray = new int [50];
+  //      evenArray = lo.populateEvenArray();
+
+  //      lo.returnAverageOfNumbers();
+
     }
 
         }

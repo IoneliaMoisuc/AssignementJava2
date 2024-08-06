@@ -331,9 +331,63 @@ public class LogicalOperation {
         }
     }
 
+    public int[] populateArray(int length) {
+        int[] myArray = new int[length];
+        for (int i = 0; i < length; i++) {
+            myArray[i] = i + 1;
+        }
+        return myArray;
+    }
+
+//3. (Array) Create a method that takes an empty int array as a parameter and returns it
+    // populated with all even values from 1 to 100. Call the method in main() to verify if it works.
+    // Note, that the method returns an array, so it should be captured and displayed using a loop.
+
+//    public int[] populateEvenArray() {
+//        int currentPosition = 0;
+//        for (int i = 1; i <= 100; i++) {
+//
+//            if (i % 2 == 0) {
+//                array[currentPosition++] = i;
+//            }
+//            return array;
+//        }
+//    }
 
 
-}
+
+
+
+    //4.(Array). Create a method that takes an array of numbers as a parameter, populated with values.
+    // The method should calculate and return the average of the numbers in the array.
+    // Call the method in main() to verify if it works.
+//
+//    public double returnAverageOfNumbers() {
+//        int sum = 0;
+//        int[] numbers =new int[10];
+//        for (int num : numbers) {
+//            sum += num;
+//        }
+//        return (double) sum / numbers.length;
+//    }
+
+
+
+        //     int[] myArray = new int[length];
+        //        for (int i = 0; i < length; i++) {
+        //            myArray[i] = i + 1;
+        //        }
+        //        return myArray;
+
+
+
+
+
+
+
+
+    }
+
 
 
 
