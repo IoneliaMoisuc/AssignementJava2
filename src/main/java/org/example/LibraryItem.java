@@ -5,13 +5,14 @@ abstract class LibraryItem {
     private String title;
     private String author;
 
-    public LibraryItem (String title, String author){
+    public LibraryItem(String title, String author) {
         this.title = title;
         this.author = author;
     }
+
     public abstract String getDescription();
 
-    public String getTitle(){
+    public String getTitle() {
         return title;
     }
 
@@ -19,6 +20,7 @@ abstract class LibraryItem {
         return author;
     }
 
+}
 
 
 
@@ -32,9 +34,9 @@ abstract class LibraryItem {
         }
 @Override
         public String getDescription() {
-            return "Book: " + getTitle() + "by" + getAuthor() + "ISBN" + ISBN;
+            return "Book: " + getTitle() + " by " + getAuthor() + " - ISBN " + ISBN;
             }
-    }
+}
 
     class Magazine extends LibraryItem{
         private int issueNumber;
@@ -50,4 +52,4 @@ abstract class LibraryItem {
         }
     }
 
-}
+
